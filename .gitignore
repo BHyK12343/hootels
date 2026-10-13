@@ -1,0 +1,38 @@
+# Qt Creator
+*.user
+*.user.*
+*.autosave
+
+# Папка сборки
+build/
+build-*/
+*.pro.user*
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Qt-генерируемые файлы
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.o
+*.obj
+
+# Qt-библиотеки (если случайно попали в проект)
+*.dll
+*.so
+*.dylib
+*.a
+
+# Фото и скриншоты (опционально)
+images/
+docs/screenshots/
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# Qt Creator settings
+.qtc_clangd/
